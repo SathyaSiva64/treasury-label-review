@@ -9,6 +9,8 @@ Hi! My name’s Sathya, and I built an AI-assisted alcohol label verification pr
 
 **Assumptions:** Label images are sufficiently clear for OCR. Automated checks provide preliminary screening rather than definitive regulatory compliance determinations. OCR may miss or misread text, so results require human review.
 
+**AI/ML Component:** The application uses Tesseract OCR 5.5.3, which uses an LSTM-based neural network for text recognition. This machine-learning-based OCR component converts alcohol label images into text, which the application then processes using Python-based validation logic to identify key fields and flag discrepancies. This approach provides an AI/ML component without requiring an external generative AI API, supporting a lightweight, locally runnable prototype.
+
 ## Here’s what it does
 
 - Upload an image of an alcohol label and extract its text.
