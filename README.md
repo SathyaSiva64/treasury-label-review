@@ -2,7 +2,7 @@
 
 Hi! My name’s Sathya and my project is a small Python app that helps review alcohol labels by extracting text from label images and comparing it with information entered on an application. It is built with Streamlit and uses Tesseract OCR to read text from images.
 
-**Approach:** I did not want to over-engineer this app, therefore I prioritized a simple, functional implementation aligned with the core requirements. Built a Streamlit application that uses OCR to extract text from alcohol labels, identify key information such as ABV and net contents, and check for the government warning heading. Supports individual and batch uploads, with CSV export for batch results.
+**Approach:** I did not want to over-engineer this app, so I prioritized a simple, functional implementation aligned with the core requirements. Built a Streamlit application that uses OCR to extract text from alcohol labels, identify key information such as ABV and net contents, and check for the government warning heading. Supports individual and batch uploads, with CSV export for batch results.
 
 **Tools Used:** Python, Streamlit, Tesseract OCR, pytesseract, Pillow, GitHub, and Streamlit Community Cloud.
 
