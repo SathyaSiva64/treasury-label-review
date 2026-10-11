@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # Alcohol Label Review
 
 Hi! My name’s Sathya and my project is a small Python app that helps review alcohol labels by extracting text from label images and comparing it with information entered on an application. It is built with Streamlit and uses Tesseract OCR to read text from images.
