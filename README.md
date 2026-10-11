@@ -1,6 +1,7 @@
 # Alcohol Label Review
 
-Hi! My name’s Sathya and my project is a small Python app that helps review alcohol labels by extracting text from label images and comparing it with information entered on an application. It is built with Streamlit and uses Tesseract OCR to read text from images.
+Hi! My name’s Sathya, and I built an AI-assisted alcohol label verification prototype that combines OCR-based text extraction with automated information processing and discrepancy detection. The application extracts label information, identifies key fields such as alcohol content and net contents, and compares available values to flag inconsistencies. I chose a lightweight, locally runnable approach using Tesseract OCR and Python-based validation logic to prioritize functionality, simplicity, and deployment flexibility. The prototype demonstrates how document-processing automation can reduce the manual effort involved in regulatory label review, while recognizing that OCR results and flagged discrepancies still require human oversight.
+
 
 **Approach:** I did not want to over-engineer this app, so I prioritized a simple, functional implementation aligned with the core requirements. Built a Streamlit application that uses OCR to extract text from alcohol labels, identify key information such as ABV and net contents, and check for the government warning heading. Supports individual and batch uploads, with CSV export for batch results.
 
